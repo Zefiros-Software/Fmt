@@ -4,8 +4,8 @@ To use [Fmt](https://github.com/fmtlib/fmt) in [ZPM](http://zpm.zefiros.eu), jus
 # Status
 OS          | Status
 ----------- | -------
-Linux & OSX | [![Build Status](https://travis-ci.org/Zefiros-Software/Boost.svg?branch=master)](https://travis-ci.org/Zefiros-Software/Boost)
-Windows     | [![Build status](https://ci.appveyor.com/api/projects/status/jry48qkgq4opd8ux?svg=true)](https://ci.appveyor.com/project/PaulVisscher/boost)
+Linux & OSX | [![Build Status](https://travis-ci.org/Zefiros-Software/Fmt.svg?branch=master)](https://travis-ci.org/Zefiros-Software/Fmt)
+Windows     | [![Build status](https://ci.appveyor.com/api/projects/status/226uk1b767frmd5x?svg=true)](https://ci.appveyor.com/project/PaulVisscher/fmt)
 
 # [ZPM](http://zpm.zefiros.eu) Installation
 In `.package.json`

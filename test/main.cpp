@@ -27,7 +27,7 @@
 
 TEST( Test, Example )
 {
-    EXPECT_EQ( "The answer is 42", fmt::format( "The answer is {}", 42 ); );
+    EXPECT_EQ( "The answer is 42", fmt::format( "The answer is {}", 42 ) );
 }
 
 int main( int argc, char **argv )
