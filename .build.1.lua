@@ -10,6 +10,6 @@ project( "Fmt" )
     warnings "Off"
 
     zpm.export [[
-        includedirs "fmt/"
+        includedirs "./"
         flags "C++11"
     ]]

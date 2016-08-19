@@ -19,9 +19,7 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
-#include <boost/mpl/if.hpp>
-#include <boost/mpl/bool.hpp>
-#include <boost/mpl/aux_/test.hpp>
+#include "fmt/format.h"
 
 #include "gtest/gtest.h"
 
@@ -29,15 +27,7 @@
 
 TEST( Test, Example )
 {
-    typedef if_<true_, char, long>::type t1;
-    typedef if_c<true, char, long>::type t2;
-    typedef if_<false_, char, long>::type t3;
-    typedef if_c<false, char, long>::type t4;
-
-    EXPECT_TRUE( ( is_same<t1, char> ) );
-    EXPECT_TRUE( ( is_same<t2, char> ) );
-    EXPECT_TRUE( ( is_same<t3, long> ) );
-    EXPECT_TRUE( ( is_same<t4, long> ) );
+    EXPECT_EQ( "The answer is 42", fmt::format( "The answer is {}", 42 ); );
 }
 
 int main( int argc, char **argv )
