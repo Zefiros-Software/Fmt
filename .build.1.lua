@@ -1,6 +1,6 @@
 
 
-project( "Fmt" )
+project "Fmt"
 
     kind "StaticLib"
     files {        
