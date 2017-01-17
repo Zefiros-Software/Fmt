@@ -13,3 +13,6 @@ install:
     - wget -O - https://raw.githubusercontent.com/Zefiros-Software/ZPM/master/script/install-zpm-travis.sh | bash
 script:
     - bash script/travis-build.sh
+notifications:
+    slack:
+        secure: "oeweSsRKk92EjP5c0TpIyNJJHTCDjd4+BXLDfEgBLb2/pOG3xDY4ELjGirLt3peAy9mznTFcY9+5hPFZArq183TW+Eyh2WYiAFU+bwVHjEakSXF2+XNTmYHmn2ofxsYHQeDLBgmGCdITjd6gS1bstMc2vdZdIoQxEKditJk4JtoAdEWhnoJz+KPW1GN9lpF0B5aqvLz9Je0D+/AAayE66G+DvYdjUyBS9utieViuMPXQRVy3EaID7r++wD4CUAeDg0EtAq00mz/KeReRRjGUi7GdXe1soFW8q2U7HryHnRC/m23T1Z4kaAbdnfRwVEy9l+KrOm1dwfU0URu2Bep+dt8WYN4TTlg7NglUEOg00ZhjStxUrtZdIbcGx79QTwNXssPyUaPy4fZ8pH7/a5FhTbVr5N+kKu1MRKwI8rwhdtdZCfHZc76R/6Rlg8pasprNJoGFrLKguPbksj0TTdJCprpfc8CPs1DTDz7maSWA35BukIJFFg6cs/Lf89Jlr2X34aEKmaFZ9ucfHljTTDlJm1xNTCuDQyrWe5TWdVQ0j+eQoRz5Re00yvlErYWJk/Lc22DOQL69nZT2SqF58xLtrirVZeUKy92c7EkkmEf6rmAaV7kM6Zmb53GVy3HMl2Tq/rd3C9CenzPG0ujQdfOCYwSgYySOntgFslCmEdJAuvw="
