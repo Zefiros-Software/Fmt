@@ -3,7 +3,7 @@ set -e
 cd test/
 
 zpm install-package --allow-install --allow-module
-zpm gmake
+zpm gmake --allow-install
 
 make 
 

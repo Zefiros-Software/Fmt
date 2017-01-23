@@ -1,12 +1,6 @@
 #Fmt
 To use [Fmt](https://github.com/fmtlib/fmt) in [ZPM](http://zpm.zefiros.eu), just use:
 
-# Status
-OS          | Status
------------ | -------
-Linux & OSX | [![Build Status](https://travis-ci.org/Zefiros-Software/Fmt.svg?branch=master)](https://travis-ci.org/Zefiros-Software/Fmt)
-Windows     | [![Build status](https://ci.appveyor.com/api/projects/status/226uk1b767frmd5x?svg=true)](https://ci.appveyor.com/project/PaulVisscher/fmt)
-
 # [ZPM](http://zpm.zefiros.eu) Installation
 In `.package.json`
 ```json
@@ -18,7 +12,13 @@ In `.package.json`
 ]
 ```
 
-In `premake5.lua`
+In `zpm.lua`
 ```lua
 zpm.uses "Zefiros-Software/Fmt"
 ```
+
+# Status
+Type        | Status
+----------- | -------
+Linux & OSX | [![Build Status](https://travis-ci.org/Zefiros-Software/Fmt.svg?branch=master)](https://travis-ci.org/Zefiros-Software/Fmt)
+Windows     | [![Build status](https://ci.appveyor.com/api/projects/status/8s05t066ur4vfagc?svg=true)](https://ci.appveyor.com/project/Zefiros-Software/fmt-uajc6)
