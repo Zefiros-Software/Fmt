@@ -1,0 +1,6 @@
+libraries:
+  - name: Zefiros-Software/GoogleTest
+    version: '@head'
+  - name: Zefiros-Software/Fmt
+    version: '@head'
+    definition: ../
