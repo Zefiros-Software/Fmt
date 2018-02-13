@@ -4,3 +4,6 @@ libraries:
   - name: Zefiros-Software/Fmt
     version: '@head'
     definition: ../
+modules:
+  - name: Zefiros-Software/Defaults
+    version: '@head'
