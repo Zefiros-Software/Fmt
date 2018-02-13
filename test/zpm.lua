@@ -25,15 +25,7 @@
 -- ]]
 
 workspace "Fmt"
-   configurations { "Test" }
-
-   startproject "Fmt"
+    zefiros.testDefinition("Fmt")
 
     project "Fmt"
-        kind "ConsoleApp"
-        files "main.cpp"
-
-        zpm.uses {
-            "Zefiros-Software/GoogleTest",
-            "Zefiros-Software/Fmt"
-        }
+        zpm.uses "Zefiros-Software/Fmt"

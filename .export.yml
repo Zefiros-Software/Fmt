@@ -1,15 +1,15 @@
 %YAML 1.1
 ---
-version: '>4.0.0 || @head'
+version: '@head'
 export: |
 
     project "Fmt"
         kind "StaticLib"
-        files "inclue/fmt/**.cc"
+        files "include/fmt/**.cc"
 
         zpm.export [[
             includedirs "include"
-            cppdialect "C++11"
+            cppdialect "C++14"
         ]]
 ...
 ---

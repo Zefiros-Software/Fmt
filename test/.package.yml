@@ -2,7 +2,7 @@ libraries:
   - name: Zefiros-Software/GoogleTest
     version: '@head'
   - name: Zefiros-Software/Fmt
-    version: '@head'
+    version: '^4.0.0'
     definition: ../
 modules:
   - name: Zefiros-Software/Defaults
