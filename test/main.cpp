@@ -29,14 +29,14 @@
 
 #include <stdint.h>
 
-TEST( Test, Example )
+TEST(Test, Example)
 {
-    EXPECT_EQ( "The answer is 42", fmt::format( "The answer is {}", 42 ) );
+    EXPECT_EQ("The answer is 42", fmt::format("The answer is {}", 42));
 }
 
-int main( int argc, char **argv )
+int main(int argc, char **argv)
 {
-    testing::InitGoogleTest( &argc, argv );
+    testing::InitGoogleTest(&argc, argv);
 
     int32_t result = RUN_ALL_TESTS();
 
