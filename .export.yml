@@ -1,6 +1,6 @@
 %YAML 1.1
 ---
-version: '@head'
+version: '^5.1.0 || @head'
 export: |
 
     project "Fmt"
